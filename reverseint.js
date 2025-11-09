@@ -3,9 +3,9 @@
  * @return {number}
  */
 
-let x = -10
+let x = 164
 var reverse = function(x) {
-    if (num < -(2 ** 31)) {
+    if (x < -(2 ** 31)) {
     return 0;
     }   
     if (x.toString().length === 1) {

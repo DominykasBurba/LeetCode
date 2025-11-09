@@ -2,24 +2,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-let nums = [1,1]
-
-// var findDisappearedNumbers = function(nums) {
-//     let array = []
-//     for(let i = 1; i < nums.length; i++) {
-//         let found = false
-//         for(let j = 0; j < nums.length + 1; j++) {
-//             if(i === nums[j]){
-//                 found = true
-//                 break
-//             }
-//         }
-//         if (!found) {
-//             array.push(i)
-//         }
-//     }
-//     return array
-// };
+let nums = [4,3,2,7,8,2,3,1]
 
 var findDisappearedNumbers = function(nums) {
     let setmap = new Set(nums)

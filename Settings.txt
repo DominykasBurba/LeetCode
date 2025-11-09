@@ -1,0 +1,31 @@
+Method 1 (GUI)
+
+Open Settings: Ctrl + ,
+
+Search: parameterHints
+
+Disable:
+
+✅ Editor › Parameter Hints: Enabled
+
+Also disable:
+
+Editor › Hover: Enabled (optional — stops hover popups)
+
+
+
+
+Go to File → Settings (or press Ctrl + ,)
+
+Search for: editor.suggestOnTriggerCharacters
+
+Uncheck it
+
+Also disable this one:
+
+editor.quickSuggestions
+
+In Settings search: quickSuggestions
+
+Turn it OFF (toggle everything to false)
+
